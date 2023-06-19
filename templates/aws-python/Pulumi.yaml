@@ -7,4 +7,7 @@ template:
   config:
     aws:region:
       description: The AWS region to deploy into
-      default: us-east-1
+      default: cn-north-1
+    myAccessToken:
+      description: My access token
+      secret: false
