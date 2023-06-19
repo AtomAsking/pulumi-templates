@@ -1,0 +1,9 @@
+name: ${PROJECT}
+description: ${DESCRIPTION}
+runtime: python
+template:
+  description: A minimal Python Pulumi program with the classic Azure provider
+  config:
+    azure:location:
+      description: The Azure location to use
+      default: WestUS2

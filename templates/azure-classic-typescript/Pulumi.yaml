@@ -1,0 +1,9 @@
+name: ${PROJECT}
+description: ${DESCRIPTION}
+runtime: nodejs
+template:
+  description: A minimal TypeScript Pulumi program with the classic Azure provider
+  config:
+    azure:location:
+      description: The Azure location to use
+      default: WestUS2
